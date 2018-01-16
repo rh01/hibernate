@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="src/lib/antlr-2.7.6.jar"/>
+	<classpathentry kind="lib" path="src/lib/commons-collections-3.1.jar"/>
+	<classpathentry kind="lib" path="src/lib/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="src/lib/hibernate3.jar" sourcepath="F:/06_workshop/开发文档/韩顺平.2011版.hibernate3.3视频教程.资料.ppt.笔记.源码汇总/资料/hibernate-distribution-3.3.1.GA-dist.zip"/>
+	<classpathentry kind="lib" path="src/lib/javassist-3.4.GA.jar"/>
+	<classpathentry kind="lib" path="src/lib/jta-1.1.jar"/>
+	<classpathentry kind="lib" path="src/lib/slf4j-api-1.5.10.jar"/>
+	<classpathentry kind="lib" path="src/lib/slf4j-simple-1.5.10.jar"/>
+	<classpathentry kind="lib" path="src/lib/mysql-connector-java-5.1.6-bin.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

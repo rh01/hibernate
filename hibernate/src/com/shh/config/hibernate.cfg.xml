@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<!-- 该文件用于配置对象和hibernate的映射关系 -->
+<hibernate-configuration>
+
+	<session-factory>
+
+		<!-- Database connection settings -->
+		<property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+		<property name="connection.url">jdbc:mysql://localhost:3306/hibernate</property>
+		<property name="connection.username">root</property>
+		<property name="connection.password">hadoop</property>
+		
+		<!-- 显示出sql语句 -->
+		<property name="show_sql">true</property>
+		<property name="format_sql">true</property>
+		<!-- SQL 方言，告诉hibernate连接的是哪一个数据库 -->
+		<property name="dialect">org.hibernate.dialect.MySQLDialect</property>
+		<!-- 让hibernate自动创建表,create表示如果没有该表则创建,每次都重新重建,update就是保留 -->
+		<property name="hbm2ddl.auto">update</property>
+		<!-- 该文件用于管理的映射文件 -->
+		<mapping resource="com/shh/domain/Employee.hbml.xml" />
+
+
+
+	</session-factory>
+
+</hibernate-configuration>
+
